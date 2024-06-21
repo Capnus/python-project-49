@@ -1,3 +1,5 @@
+from brain_games.cli import welcome_user
+
 name = welcome_user()
 
 
@@ -18,4 +20,3 @@ def core_games(launch_game):
             print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
             break
-
