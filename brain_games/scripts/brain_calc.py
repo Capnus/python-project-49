@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 from brain_games.games.calculator import launch_game, rule
-from brain_games.games.core import core_games
-
-rule = rule()
+from brain_games.games.core import core_games, greet
 
 
 def main():
-    core_games(launch_game())
+    greet()
+    print(rule())
+    while core_games(launch_game()) != 'end':
+        a = 'zaglushka'
 
 
 if __name__ == '__main__':
