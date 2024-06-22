@@ -1,9 +1,10 @@
-from brain_games.cli import welcome_user
-
-name = welcome_user()
+import prompt
 
 
 def core_games(launch_game):
+    print('Welcome to the Brain Games!')
+    name = prompt.string('May I have your name? ')
+    print(f'Hello, {name}!')
     count_correct_answers = 0
     while True:
         question, correct_answer = launch_game

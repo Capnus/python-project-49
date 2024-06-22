@@ -1,7 +1,7 @@
 from random import randint
 
 def rule():
-    return 'Answer "yes" if given number is prime. Otherwise answer "no".'
+    return 'Answer "yes" if given number is even. Otherwise answer "no".'
 
 
 def launch_game():
