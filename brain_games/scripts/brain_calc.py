@@ -6,7 +6,6 @@ rule = rule()
 
 
 def main():
-    greet()
     launch_game()
     core_games()
 
