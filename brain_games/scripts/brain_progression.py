@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from brain_games.games.is_prime import launch_game, rule
+from brain_games.games.proggresion import launch_game, rule
 from brain_games.games.core import core_games, greet
 
 

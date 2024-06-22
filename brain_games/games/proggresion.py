@@ -14,6 +14,5 @@ def launch_game():
     random_index = randint(0, 9)
     correct_answer = question.pop(random_index)
     question.insert(random_index, '..')
-
+    question = ' '.join(str(num) for num in question)
     return question, str(correct_answer)
-
