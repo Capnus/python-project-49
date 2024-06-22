@@ -13,6 +13,9 @@ brain-prime:
 brain-prog:
 	poetry run brain-prog
 
+brain-nod:
+	poetry run brain-nod
+
 build:
 	poetry build
 

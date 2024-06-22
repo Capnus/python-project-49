@@ -1,5 +1,6 @@
 from random import randint
 
+
 def rule():
     return 'Find the greatest common divisor of given numbers.'
 
@@ -19,4 +20,3 @@ def launch_game():
     common_divisor = list(set(divisor_a) & set(divisor_b))
     correct_answer = max(common_divisor)
     return str(question), str(correct_answer)
-
