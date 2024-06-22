@@ -6,8 +6,7 @@ rule = rule()
 
 
 def main():
-    launch_game()
-    core_games()
+    core_games(launch_game())
 
 
 if __name__ == '__main__':
