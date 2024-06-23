@@ -8,3 +8,6 @@ Brain-even:
 
 Brain-calculator:
 [![asciicast](https://asciinema.org/a/796lQbS4wJUN0VZiKDsKsONIA.svg)](https://asciinema.org/a/796lQbS4wJUN0VZiKDsKsONIA)
+
+Brain-NOD:
+[![asciicast](https://asciinema.org/a/1BD8U8LjapZ1SDtJQ1pWFoP7E.svg)](https://asciinema.org/a/1BD8U8LjapZ1SDtJQ1pWFoP7E)
