@@ -14,3 +14,6 @@ Brain-NOD:
 
 Brain-progression:
 [![asciicast](https://asciinema.org/a/9HkgqBCCnFT61hCe8dQbJQNit.svg)](https://asciinema.org/a/9HkgqBCCnFT61hCe8dQbJQNit)
+
+Brain-prime:
+[![asciicast](https://asciinema.org/a/3rN9xpyd8Pkm4nXwMruLXFgLP.svg)](https://asciinema.org/a/3rN9xpyd8Pkm4nXwMruLXFgLP)
