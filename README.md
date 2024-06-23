@@ -4,4 +4,4 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/9eeead249f1fcb14ccd1/maintainability)](https://codeclimate.com/github/Capnus/python-project-49/maintainability)
 
 
-<script src="https://asciinema.org/a/4F3UPCGj34MiWWZDkk4hLmbUx.js" id="asciicast-4F3UPCGj34MiWWZDkk4hLmbUx" async="true"></script>
+[![asciicast](https://asciinema.org/a/4F3UPCGj34MiWWZDkk4hLmbUx.svg)](https://asciinema.org/a/4F3UPCGj34MiWWZDkk4hLmbUx)
