@@ -3,5 +3,8 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/9eeead249f1fcb14ccd1/maintainability)](https://codeclimate.com/github/Capnus/python-project-49/maintainability)
 
-
+Brain-even:
 [![asciicast](https://asciinema.org/a/4F3UPCGj34MiWWZDkk4hLmbUx.svg)](https://asciinema.org/a/4F3UPCGj34MiWWZDkk4hLmbUx)
+
+Brain-calculator:
+[![asciicast](https://asciinema.org/a/796lQbS4wJUN0VZiKDsKsONIA.svg)](https://asciinema.org/a/796lQbS4wJUN0VZiKDsKsONIA)
