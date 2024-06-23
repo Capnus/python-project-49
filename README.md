@@ -11,3 +11,6 @@ Brain-calculator:
 
 Brain-NOD:
 [![asciicast](https://asciinema.org/a/1BD8U8LjapZ1SDtJQ1pWFoP7E.svg)](https://asciinema.org/a/1BD8U8LjapZ1SDtJQ1pWFoP7E)
+
+Brain-progression:
+[![asciicast](https://asciinema.org/a/9HkgqBCCnFT61hCe8dQbJQNit.svg)](https://asciinema.org/a/9HkgqBCCnFT61hCe8dQbJQNit)
