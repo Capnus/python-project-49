@@ -6,8 +6,7 @@ def rule():
 
 
 def launch_game():
-    a = randint(1, 100)
-    b = randint(1, 100)
+    a, b = randint(1, 100), randint(1, 100)
     question = str(a) + ' ' + str(b)
     divisor_a = []
     divisor_b = []
