@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from brain_games.games.gcd import launch_game, RULE
-from brain_games.games.core import core_games, greet
+from brain_games.core import core_games, greet
 
 
 def main():

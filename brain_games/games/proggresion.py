@@ -1,8 +1,6 @@
 from random import randint
 
-
-def rule():
-    return 'What number is missing in the progression?'
+RULE = 'What number is missing in the progression?'
 
 
 def launch_game():

@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-from brain_games.games.proggresion import launch_game, rule
-from brain_games.games.core import core_games, greet
+from brain_games.games.proggresion import launch_game, RULE
+from brain_games.core import core_games, greet
 
 
 def main():
     greet()
-    print(rule())
+    print(RULE)
     while core_games(launch_game()) != 'end':
         a = 'zaglushka'
 
