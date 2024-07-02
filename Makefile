@@ -1,4 +1,4 @@
-istall:
+install:
 	poetry install
 
 brain-even:
