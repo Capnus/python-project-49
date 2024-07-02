@@ -16,6 +16,9 @@ brain-prog:
 brain-gcd:
 	poetry run brain-gcd
 
+brain-games:
+	poetry run brain-games
+
 build:
 	poetry build
 
