@@ -13,8 +13,8 @@ brain-prime:
 brain-prog:
 	poetry run brain-prog
 
-brain-nod:
-	poetry run brain-nod
+brain-gcd:
+	poetry run brain-gcd
 
 build:
 	poetry build
