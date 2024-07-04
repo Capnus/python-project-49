@@ -6,7 +6,8 @@ END_RANGE = 100
 
 
 def launch_game():
-    num_1, num_2 = randint(START_RANGE, END_RANGE), randint(START_RANGE, END_RANGE)
+    num_1 = randint(START_RANGE, END_RANGE)
+    num_2 = randint(START_RANGE, END_RANGE)
     question = 0
     correct_answer = 0
     sign = choice('+-*')
