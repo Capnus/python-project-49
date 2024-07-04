@@ -17,9 +17,9 @@ def core_games(launch_game):
         if COUNT_CORRECT_ANSWERS == 3:
             print(f'Congratulations, {NAME}!')
             return 'end'
-        print('Question: ', question)
+        print('Question:', question)
         answer = input()
-        print('Your answer: ', answer)
+        print('Your answer:', answer)
         if answer == correct_answer:
             print('Correct!')
             COUNT_CORRECT_ANSWERS += 1
