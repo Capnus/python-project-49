@@ -11,4 +11,4 @@ def launch_game():
         correct_answer = 'yes'
     else:
         correct_answer = 'no'
-    return str(question), correct_answer
+    return question, correct_answer
