@@ -6,7 +6,7 @@ from brain_games.core import core_games, greet
 def main():
     greet()
     print(RULE)
-    core_games(launch_game())
+    core_games(launch_game)
 
 
 if __name__ == '__main__':
