@@ -6,8 +6,7 @@ from brain_games.core import core_games, greet
 def main():
     greet()
     print(RULE)
-    while core_games(launch_game()) != 'end':
-        a = 'zaglushka'
+    core_games(launch_game())
 
 
 if __name__ == '__main__':
