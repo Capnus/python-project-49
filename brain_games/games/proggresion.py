@@ -1,13 +1,14 @@
 from random import randint
 
 RULE = 'What number is missing in the progression?'
-RANDOM_NUM_1, RANDOM_NUM_2 = randint(1, 5), randint(1, 99)
+START_RANGE = 1
+END_RANGE = 100
+END_RANGE_STEP = 5
 
 
 def launch_game():
-    global RANDOM_NUM_1, RANDOM_NUM_2
-    step_list = RANDOM_NUM_1
-    question = [RANDOM_NUM_2]
+    step_list = randint(START_RANGE, END_RANGE_STEP)
+    question = [randint(START_RANGE, END_RANGE)]
     for i in range(10):
         question.append(question[i] + step_list)
 
