@@ -10,14 +10,14 @@ def launch_game():
     num_2 = randint(START_RANGE, END_RANGE)
     question = 0
     correct_answer = 0
-    sign = choice('+-*')
-    if sign == '+':
+    operator = choice('+-*')
+    if operator == '+':
         correct_answer = num_1 + num_2
-        question = str(num_1) + " + " + str(num_2)
-    if sign == '-':
+        question = f'{num_1} + {num_2}'
+    if operator == '-':
         correct_answer = num_1 - num_2
-        question = str(num_1) + " - " + str(num_2)
-    if sign == '*':
+        question = f'{num_1} - {num_2}'
+    if operator == '*':
         correct_answer = num_1 * num_2
-        question = str(num_1) + " * " + str(num_2)
-    return str(question), str(correct_answer)
+        question = f'{num_1} * {num_2}'
+    return question, str(correct_answer)

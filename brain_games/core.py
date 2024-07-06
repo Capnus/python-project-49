@@ -1,30 +1,25 @@
 import prompt
-COUNT_CORRECT_ANSWERS = 0
-NAME = ''
 
 
-def greet():
+def start_core(launch_game, rule):
+    count_correct_answers = 0
     print('Welcome to the Brain Games!')
-    global NAME
-    NAME = prompt.string('May I have your name? ')
-    print(f'Hello, {NAME}!')
-
-
-def core_games(launch_game):
-    while launch_game != 'end':
+    name = prompt.string('May I have your name? ')
+    print(f'Hello, {name}!')
+    print(rule)
+    while count_correct_answers < 4:
+        if count_correct_answers == 3:
+            print(f'Congratulations, {name}!')
+            return
         question, correct_answer = launch_game()
-        global COUNT_CORRECT_ANSWERS
-        if COUNT_CORRECT_ANSWERS == 3:
-            print(f'Congratulations, {NAME}!')
-            return 'end'
-        print('Question:', question)
+        print(f'Question: {question}')
         answer = input()
-        print('Your answer:', answer)
+        print(f'Your answer: {answer}')
         if answer == correct_answer:
             print('Correct!')
-            COUNT_CORRECT_ANSWERS += 1
+            count_correct_answers += 1
         else:
             print(f"'{answer}' is wrong answer ;(. "
                   f"Correct answer was '{correct_answer}'.")
-            print(f"Let's try again, {NAME}!")
-            return 'end'
+            print(f"Let's try again, {name}!")
+            return

@@ -5,13 +5,16 @@ START_RANGE = 1
 END_RANGE = 100
 
 
-def launch_game():
-    question = randint(START_RANGE, END_RANGE)
-    count_divisors = 0
+def is_prime(question):
     for i in range(2, (question + 1) // 2):
         if question % i == 0:
-            count_divisors += 1
-    if count_divisors == 0:
+            return False
+    return True
+
+
+def launch_game():
+    question = randint(START_RANGE, END_RANGE)
+    if is_prime(question):
         correct_answer = 'yes'
     else:
         correct_answer = 'no'

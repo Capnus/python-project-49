@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
 from brain_games.games.is_even import launch_game, RULE
-from brain_games.core import core_games, greet
+from brain_games.core import start_core
 
 
 def main():
-    greet()
-    print(RULE)
-    core_games(launch_game)
+    start_core(launch_game, RULE)
 
 
 if __name__ == '__main__':
