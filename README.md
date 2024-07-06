@@ -11,6 +11,7 @@ To install the package you should have:
 
   Python 3.10+
   poetry
+
 After you are sure that all programs are installed:
   
   git clone https://github.com/Capnus/python-project-49.git
