@@ -6,25 +6,27 @@
 “Mind Games” is a set of five console games built on the principle of popular mobile applications for brain training. Each game asks questions that must be answered correctly. 
 After three correct answers, the game is considered completed. Wrong answers end the game and prompt you to play it again. 
 
-Installation:
+#Installation:
 To install the package you should have:
-
+```
   Python 3.10+
   poetry
-
-After you are sure that all programs are installed:
-  
+```
+#After you are sure that all programs are installed:
+```
   git clone https://github.com/Capnus/python-project-49.git
   cd python-project-49/
   make install
+```
 
-Commands to start games:
+#Commands to start games:
+```
 brain-even (Determining is the number even or not)
 brain-calc (Simple calculator)
 brain-gcd (Determining the greatest common divisor)
 brain-progression (Determining the hided element in progression)
 brain-prime (Determining is the number prime or not)
-
+```
 
 
 Brain-even:
