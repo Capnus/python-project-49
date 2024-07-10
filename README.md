@@ -3,18 +3,31 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/9eeead249f1fcb14ccd1/maintainability)](https://codeclimate.com/github/Capnus/python-project-49/maintainability)
 
-«Игры разума» — набор из пяти консольных игр, построенных по принципу популярных мобильных приложений для прокачки мозга. Каждая игра задает вопросы, на которые нужно дать правильные ответы. После трех правильных ответов считается, что игра пройдена. Неправильные ответы завершают игру и предлагают пройти ее заново. 
+“Mind Games” is a set of five console games built on the principle of popular mobile applications for brain training. Each game asks questions that must be answered correctly. 
+After three correct answers, the game is considered completed. Wrong answers end the game and prompt you to play it again. 
 
-Установка:
-git clone https://github.com/Capnus/python-project-49.git
+## Installation:
+To install the package you should have:
+```
+  Python 3.10+
+  poetry
+```
+## After you are sure that all programs are installed:
+```
+  git clone https://github.com/Capnus/python-project-49.git
+  cd python-project-49/
+  make install
+```
 
-Игры:
+## Commands to start games:
+```
+brain-even (Determining is the number even or not)
+brain-calc (Simple calculator)
+brain-gcd (Determining the greatest common divisor)
+brain-progression (Determining the hided element in progression)
+brain-prime (Determining is the number prime or not)
+```
 
-Калькулятор. Арифметические выражения, которые необходимо вычислить(brain-calculator)
-Прогрессия. Поиск пропущенных чисел в последовательности чисел(brain-progression)
-Определение четного числа(brain-even)
-Определение наибольшего общего делителя(brain-gcd)
-Определение простого числа(brain-prime)
 
 Brain-even:
 [![asciicast](https://asciinema.org/a/4F3UPCGj34MiWWZDkk4hLmbUx.svg)](https://asciinema.org/a/4F3UPCGj34MiWWZDkk4hLmbUx)
