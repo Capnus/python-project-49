@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-from brain_games.games.gcd import launch_game, RULE
+from brain_games.games import gcd
 from brain_games.core import start_core
 
 
 def main():
-    start_core(launch_game, RULE)
+    start_core(gcd)
 
 
 if __name__ == '__main__':

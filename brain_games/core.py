@@ -2,13 +2,13 @@ import prompt
 COUNT_ROUNDS = 3
 
 
-def start_core(launch_game, rule):
+def start_core(launch):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    print(rule)
+    print(launch.RULE)
     for _ in range(COUNT_ROUNDS):
-        question, correct_answer = launch_game()
+        question, correct_answer = launch.launch_game()
         print(f'Question: {question}')
         answer = prompt.string('Your answer:')
         if answer == correct_answer:
